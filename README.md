@@ -4,7 +4,7 @@ This repository contains code for our paper:
 
 > **Rethinking the DeepSMOTE Penalty Term and Its
 Role in Imbalanced Learning**  
-> *Saeideh Ghanbari Azar, Tommy Löfstedt, Tufve Nyholm*  
+> *Saeideh Ghanbari Azar, Tufve Nyholm, Tommy Löfstedt*  
 > *International Conference on Tools with Artificial Intelligence, 2025*  
 > DOI: *[to be added]*
 
@@ -36,4 +36,5 @@ If you use this code, please cite the paper above.
 
 
 ---
+
 
