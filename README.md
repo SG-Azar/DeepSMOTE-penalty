@@ -30,9 +30,10 @@ If you use this code, please cite the paper above.
 
 ## How to use
 
-- Run `create_imbalanced_fmnist.py` once to create imbalanced data splits from raw FMNIST data (It will be saved tosave to data/processed/v2)
+- Run `create_imbalanced_fmnist.py` once to create imbalanced data splits from raw FMNIST data (It will be saved to data/processed/v2)
 - Run `main_DS.py` for **Full pipeline** and all DS-based methods in the paper: AE → latent-SMOTE balancing → CNN training on balanced data → bootstrap tests.
 - Run `main_CNN.py` for **Baseline** CNN-based methods: Train CNN directly on imbalanced data → bootstrap tests.
 
 
 ---
+
