@@ -21,8 +21,8 @@ If you use this code, please cite the paper above.
   - `train_DS_ip_plus`: AE with class-weighted selection + cyclic penalty  
   - `train_DS_pp`: pair penalty against original images
 - `generate_data.py` – Balance the train set via **latent-space SMOTE** + decoding. Saves balanced data and IDs to `./data/Balanced/`.
-- `utils.py` – Models (Encoder, Decoder, CNN), latent **SMOTE**, metrics (Accuracy, MCC, Balanced Accuracy, Macro-F1, PR-AUC), plotting, and seed setup.
-- `Classification.py` – Classifier training (baseline CNN, CNN-ip, CNN-ip+) + **bootstrap testing**.
+- `utils.py` – Models (Encoder, Decoder, CNN), latent **SMOTE**, metrics (Accuracy, MCC, Balanced Accuracy, Macro-F1), plotting, and seed setup.
+- `Classification.py` – Classifier training (baseline CNN, CNN-ip, CNN-ip+) + bootstrap testing.
 - `main_DS.py` – **Full pipeline**: AE → latent-SMOTE balancing → CNN training on balanced data → bootstrap tests.
 - `main_CNN.py` – **Baseline**: Train CNN directly on imbalanced data → bootstrap tests.
 
@@ -36,5 +36,6 @@ If you use this code, please cite the paper above.
 
 
 ---
+
 
 
