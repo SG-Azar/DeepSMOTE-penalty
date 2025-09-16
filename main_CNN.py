@@ -58,7 +58,7 @@ def main():
     print('Elapsed train time:', t2-t1)
 
 
-    #################################################### Final Classification Test (comment this out for now)
+    #################################################### Final Classification Test (comment this out while hyperparameter search)
 
     print("Final classification test on balanced data...")
 
@@ -84,6 +84,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
